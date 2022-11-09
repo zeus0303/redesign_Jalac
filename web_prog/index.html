@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Yahoo</title>
+    <script src="https://kit.fontawesome.com/8fccb2da0a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero-container"> 
+        <div class="navbar">
+            <img src="images/blue-yahoo-logo-vetor-download-logo-17.png" class="logo">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="form"   >
+            <div class="sign_in"  data-tilt="">
+                <label for="username"><b>Yahoo ID:</b></label><br>
+                <input class="info info__username" type="text" placeholder="Enter Yahoo ID" name="uname" required><br>
+                <label for="pass"><b>Password:</b></label><br>
+                <input class="info info__password" type="password" placeholder="Enter Password" name="psw" required><br>
+                <div class="credentials">
+                    <label for="credentitals"></label>
+                    <input type="checkbox" class="tick_box" name="credentials" value="ID & pass" id="ID & pass">Remember my ID & password <br>
+                    <input type="checkbox" class="tick_box"name="credentials" value="auto sign" id="auto sign">Sign in automatically<br>
+                    <input type="checkbox" class="tick_box"name="credentials" value="invisible" id="invisible">Sign in as invisible to everyone<br>
+                </div>
+
+                <button class="sign_btn">Sign In</button>
+            </div>
+            <div class="language_box">
+                    <label for="language">Language:</label><br>
+                    <select name="options">
+                      <option value="en">English(U.S.)</option>
+                      <option value="fil">Filipino</option>
+                      <option value="spn">Spanish</option>
+                    </select>
+                    <h3>Get a new yahoo ID...</h3>
+                    <h3>Forgot your password?</h3>
+            </div>
+        </div>
+        <h1>It's You!</h1>
+        <script src="vanilla-tilt.js"></script>
+    </div>
+</body>
+
+</html>
